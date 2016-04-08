@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84C604311CB84A6F00109858 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C604301CB84A6F00109858 /* main.m */; };
+		84C604341CB84A6F00109858 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C604331CB84A6F00109858 /* AppDelegate.m */; };
+		84C604371CB84A6F00109858 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C604361CB84A6F00109858 /* FirstViewController.m */; };
+		84C6043A1CB84A6F00109858 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C604391CB84A6F00109858 /* SecondViewController.m */; };
+		84C6043D1CB84A6F00109858 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C6043B1CB84A6F00109858 /* Main.storyboard */; };
+		84C6043F1CB84A6F00109858 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84C6043E1CB84A6F00109858 /* Assets.xcassets */; };
+		84C604421CB84A6F00109858 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C604401CB84A6F00109858 /* LaunchScreen.storyboard */; };
+		84C6044D1CB84A6F00109858 /* VideoTriggerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C6044C1CB84A6F00109858 /* VideoTriggerTests.m */; };
+		84C604581CB84A6F00109858 /* VideoTriggerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C604571CB84A6F00109858 /* VideoTriggerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84C604491CB84A6F00109858 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84C604241CB84A6F00109858 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84C6042B1CB84A6F00109858;
+			remoteInfo = VideoTrigger;
+		};
+		84C604541CB84A6F00109858 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84C604241CB84A6F00109858 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84C6042B1CB84A6F00109858;
+			remoteInfo = VideoTrigger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84C6042C1CB84A6F00109858 /* VideoTrigger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoTrigger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C604301CB84A6F00109858 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84C604321CB84A6F00109858 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84C604331CB84A6F00109858 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84C604351CB84A6F00109858 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		84C604361CB84A6F00109858 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		84C604381CB84A6F00109858 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		84C604391CB84A6F00109858 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		84C6043C1CB84A6F00109858 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84C6043E1CB84A6F00109858 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84C604411CB84A6F00109858 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84C604431CB84A6F00109858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84C604481CB84A6F00109858 /* VideoTriggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoTriggerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C6044C1CB84A6F00109858 /* VideoTriggerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoTriggerTests.m; sourceTree = "<group>"; };
+		84C6044E1CB84A6F00109858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84C604531CB84A6F00109858 /* VideoTriggerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoTriggerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C604571CB84A6F00109858 /* VideoTriggerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoTriggerUITests.m; sourceTree = "<group>"; };
+		84C604591CB84A6F00109858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84C604291CB84A6F00109858 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C604451CB84A6F00109858 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C604501CB84A6F00109858 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84C604231CB84A6F00109858 = {
+			isa = PBXGroup;
+			children = (
+				84C6042E1CB84A6F00109858 /* VideoTrigger */,
+				84C6044B1CB84A6F00109858 /* VideoTriggerTests */,
+				84C604561CB84A6F00109858 /* VideoTriggerUITests */,
+				84C6042D1CB84A6F00109858 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84C6042D1CB84A6F00109858 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84C6042C1CB84A6F00109858 /* VideoTrigger.app */,
+				84C604481CB84A6F00109858 /* VideoTriggerTests.xctest */,
+				84C604531CB84A6F00109858 /* VideoTriggerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84C6042E1CB84A6F00109858 /* VideoTrigger */ = {
+			isa = PBXGroup;
+			children = (
+				84C604321CB84A6F00109858 /* AppDelegate.h */,
+				84C604331CB84A6F00109858 /* AppDelegate.m */,
+				84C604351CB84A6F00109858 /* FirstViewController.h */,
+				84C604361CB84A6F00109858 /* FirstViewController.m */,
+				84C604381CB84A6F00109858 /* SecondViewController.h */,
+				84C604391CB84A6F00109858 /* SecondViewController.m */,
+				84C6043B1CB84A6F00109858 /* Main.storyboard */,
+				84C6043E1CB84A6F00109858 /* Assets.xcassets */,
+				84C604401CB84A6F00109858 /* LaunchScreen.storyboard */,
+				84C604431CB84A6F00109858 /* Info.plist */,
+				84C6042F1CB84A6F00109858 /* Supporting Files */,
+			);
+			path = VideoTrigger;
+			sourceTree = "<group>";
+		};
+		84C6042F1CB84A6F00109858 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84C604301CB84A6F00109858 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84C6044B1CB84A6F00109858 /* VideoTriggerTests */ = {
+			isa = PBXGroup;
+			children = (
+				84C6044C1CB84A6F00109858 /* VideoTriggerTests.m */,
+				84C6044E1CB84A6F00109858 /* Info.plist */,
+			);
+			path = VideoTriggerTests;
+			sourceTree = "<group>";
+		};
+		84C604561CB84A6F00109858 /* VideoTriggerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84C604571CB84A6F00109858 /* VideoTriggerUITests.m */,
+				84C604591CB84A6F00109858 /* Info.plist */,
+			);
+			path = VideoTriggerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84C6042B1CB84A6F00109858 /* VideoTrigger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84C6045C1CB84A6F00109858 /* Build configuration list for PBXNativeTarget "VideoTrigger" */;
+			buildPhases = (
+				84C604281CB84A6F00109858 /* Sources */,
+				84C604291CB84A6F00109858 /* Frameworks */,
+				84C6042A1CB84A6F00109858 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoTrigger;
+			productName = VideoTrigger;
+			productReference = 84C6042C1CB84A6F00109858 /* VideoTrigger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84C604471CB84A6F00109858 /* VideoTriggerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84C6045F1CB84A6F00109858 /* Build configuration list for PBXNativeTarget "VideoTriggerTests" */;
+			buildPhases = (
+				84C604441CB84A6F00109858 /* Sources */,
+				84C604451CB84A6F00109858 /* Frameworks */,
+				84C604461CB84A6F00109858 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84C6044A1CB84A6F00109858 /* PBXTargetDependency */,
+			);
+			name = VideoTriggerTests;
+			productName = VideoTriggerTests;
+			productReference = 84C604481CB84A6F00109858 /* VideoTriggerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84C604521CB84A6F00109858 /* VideoTriggerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84C604621CB84A6F00109858 /* Build configuration list for PBXNativeTarget "VideoTriggerUITests" */;
+			buildPhases = (
+				84C6044F1CB84A6F00109858 /* Sources */,
+				84C604501CB84A6F00109858 /* Frameworks */,
+				84C604511CB84A6F00109858 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84C604551CB84A6F00109858 /* PBXTargetDependency */,
+			);
+			name = VideoTriggerUITests;
+			productName = VideoTriggerUITests;
+			productReference = 84C604531CB84A6F00109858 /* VideoTriggerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84C604241CB84A6F00109858 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = charles;
+				TargetAttributes = {
+					84C6042B1CB84A6F00109858 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					84C604471CB84A6F00109858 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 84C6042B1CB84A6F00109858;
+					};
+					84C604521CB84A6F00109858 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 84C6042B1CB84A6F00109858;
+					};
+				};
+			};
+			buildConfigurationList = 84C604271CB84A6F00109858 /* Build configuration list for PBXProject "VideoTrigger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84C604231CB84A6F00109858;
+			productRefGroup = 84C6042D1CB84A6F00109858 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84C6042B1CB84A6F00109858 /* VideoTrigger */,
+				84C604471CB84A6F00109858 /* VideoTriggerTests */,
+				84C604521CB84A6F00109858 /* VideoTriggerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84C6042A1CB84A6F00109858 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C604421CB84A6F00109858 /* LaunchScreen.storyboard in Resources */,
+				84C6043F1CB84A6F00109858 /* Assets.xcassets in Resources */,
+				84C6043D1CB84A6F00109858 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C604461CB84A6F00109858 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C604511CB84A6F00109858 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84C604281CB84A6F00109858 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C6043A1CB84A6F00109858 /* SecondViewController.m in Sources */,
+				84C604341CB84A6F00109858 /* AppDelegate.m in Sources */,
+				84C604371CB84A6F00109858 /* FirstViewController.m in Sources */,
+				84C604311CB84A6F00109858 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C604441CB84A6F00109858 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C6044D1CB84A6F00109858 /* VideoTriggerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C6044F1CB84A6F00109858 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C604581CB84A6F00109858 /* VideoTriggerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84C6044A1CB84A6F00109858 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84C6042B1CB84A6F00109858 /* VideoTrigger */;
+			targetProxy = 84C604491CB84A6F00109858 /* PBXContainerItemProxy */;
+		};
+		84C604551CB84A6F00109858 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84C6042B1CB84A6F00109858 /* VideoTrigger */;
+			targetProxy = 84C604541CB84A6F00109858 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84C6043B1CB84A6F00109858 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84C6043C1CB84A6F00109858 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84C604401CB84A6F00109858 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84C604411CB84A6F00109858 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84C6045A1CB84A6F00109858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84C6045B1CB84A6F00109858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84C6045D1CB84A6F00109858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VideoTrigger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = charles.VideoTrigger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84C6045E1CB84A6F00109858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VideoTrigger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = charles.VideoTrigger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84C604601CB84A6F00109858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VideoTriggerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = charles.VideoTriggerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoTrigger.app/VideoTrigger";
+			};
+			name = Debug;
+		};
+		84C604611CB84A6F00109858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VideoTriggerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = charles.VideoTriggerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoTrigger.app/VideoTrigger";
+			};
+			name = Release;
+		};
+		84C604631CB84A6F00109858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VideoTriggerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = charles.VideoTriggerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VideoTrigger;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		84C604641CB84A6F00109858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VideoTriggerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = charles.VideoTriggerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VideoTrigger;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84C604271CB84A6F00109858 /* Build configuration list for PBXProject "VideoTrigger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C6045A1CB84A6F00109858 /* Debug */,
+				84C6045B1CB84A6F00109858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84C6045C1CB84A6F00109858 /* Build configuration list for PBXNativeTarget "VideoTrigger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C6045D1CB84A6F00109858 /* Debug */,
+				84C6045E1CB84A6F00109858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84C6045F1CB84A6F00109858 /* Build configuration list for PBXNativeTarget "VideoTriggerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C604601CB84A6F00109858 /* Debug */,
+				84C604611CB84A6F00109858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84C604621CB84A6F00109858 /* Build configuration list for PBXNativeTarget "VideoTriggerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C604631CB84A6F00109858 /* Debug */,
+				84C604641CB84A6F00109858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84C604241CB84A6F00109858 /* Project object */;
+}
