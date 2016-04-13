@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1713" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
     </dependencies>
     <scenes>
-        <!--First-->
+        <!--Chat Box-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
-                <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="9pv-A4-QxB" customClass="FirstViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ia1-K6-d13"/>
                         <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
@@ -38,16 +39,16 @@
                             <constraint firstAttribute="centerY" secondItem="KQZ-1w-vlD" secondAttribute="centerY" id="exm-UA-ej4"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="First" image="first" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="Chat Box" id="acW-dT-cKf"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="750" y="-320"/>
         </scene>
-        <!--Second-->
+        <!--File Sharing-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
-                <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="8rJ-Kc-sve" customClass="SecondViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="L7p-HK-0SC"/>
                         <viewControllerLayoutGuide type="bottom" id="Djb-ko-YwX"/>
@@ -78,11 +79,94 @@
                             <constraint firstAttribute="centerY" secondItem="zEq-FU-wV5" secondAttribute="centerY" id="qzY-Ky-pLD"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Second" image="second" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="File Sharing" image="second" id="cPa-gy-q4n"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="750" y="360"/>
+        </scene>
+        <!--Connections-->
+        <scene sceneID="B3i-1Q-kkL">
+            <objects>
+                <viewController id="k9G-uq-v6l" customClass="ConnectionViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8sl-hZ-iyM"/>
+                        <viewControllerLayoutGuide type="bottom" id="TZc-Ya-YXx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="e2C-VX-VTj">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NXj-c9-OUd">
+                                <rect key="frame" x="20" y="20" width="560" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Visible To Others?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Dr-l7-JlO">
+                                <rect key="frame" x="20" y="63" width="481" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wNS-Ms-iEY">
+                                <rect key="frame" x="531" y="58" width="51" height="31"/>
+                                <connections>
+                                    <action selector="toggleVisibility:" destination="k9G-uq-v6l" eventType="valueChanged" id="bYo-mO-c6d"/>
+                                </connections>
+                            </switch>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SFK-B3-tqK">
+                                <rect key="frame" x="234" y="92" width="132" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="132" id="0j7-hV-8Ky"/>
+                                </constraints>
+                                <state key="normal" title="Browse for devices"/>
+                                <connections>
+                                    <action selector="browseForDevices:" destination="k9G-uq-v6l" eventType="touchUpInside" id="HMB-oJ-7b6"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="MrS-mn-71d">
+                                <rect key="frame" x="0.0" y="130" width="600" height="352"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bLY-GY-jdg">
+                                <rect key="frame" x="261" y="490" width="78" height="30"/>
+                                <state key="normal" title="Disconnect"/>
+                                <connections>
+                                    <action selector="disconnect:" destination="k9G-uq-v6l" eventType="touchUpInside" id="8dc-9Q-nSV"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wNS-Ms-iEY" firstAttribute="top" secondItem="NXj-c9-OUd" secondAttribute="bottom" constant="8" id="2iq-Yr-1Tn"/>
+                            <constraint firstItem="wNS-Ms-iEY" firstAttribute="leading" secondItem="1Dr-l7-JlO" secondAttribute="trailing" constant="30" id="7sX-Eu-Gk6"/>
+                            <constraint firstItem="1Dr-l7-JlO" firstAttribute="leading" secondItem="e2C-VX-VTj" secondAttribute="leading" constant="20" id="F9d-Ao-k5Z"/>
+                            <constraint firstAttribute="trailing" secondItem="wNS-Ms-iEY" secondAttribute="trailing" constant="20" id="H0o-b0-YZf"/>
+                            <constraint firstAttribute="trailing" secondItem="MrS-mn-71d" secondAttribute="trailing" id="JQc-Pf-Yho"/>
+                            <constraint firstItem="bLY-GY-jdg" firstAttribute="top" secondItem="MrS-mn-71d" secondAttribute="bottom" constant="8" id="Oac-0h-eI1"/>
+                            <constraint firstItem="MrS-mn-71d" firstAttribute="top" secondItem="SFK-B3-tqK" secondAttribute="bottom" constant="8" id="PaU-dN-SeD"/>
+                            <constraint firstItem="SFK-B3-tqK" firstAttribute="centerX" secondItem="e2C-VX-VTj" secondAttribute="centerX" id="SaE-gs-tIt"/>
+                            <constraint firstItem="1Dr-l7-JlO" firstAttribute="top" secondItem="NXj-c9-OUd" secondAttribute="bottom" constant="13" id="WUd-r9-WO1"/>
+                            <constraint firstItem="MrS-mn-71d" firstAttribute="leading" secondItem="e2C-VX-VTj" secondAttribute="leading" id="Wr8-YB-xfm"/>
+                            <constraint firstItem="NXj-c9-OUd" firstAttribute="leading" secondItem="e2C-VX-VTj" secondAttribute="leading" constant="20" id="Xo6-xt-IRm"/>
+                            <constraint firstItem="SFK-B3-tqK" firstAttribute="top" secondItem="1Dr-l7-JlO" secondAttribute="bottom" constant="8" id="cR9-yO-4yq"/>
+                            <constraint firstAttribute="trailing" secondItem="NXj-c9-OUd" secondAttribute="trailing" constant="20" id="ewb-dw-oTa"/>
+                            <constraint firstItem="bLY-GY-jdg" firstAttribute="centerX" secondItem="e2C-VX-VTj" secondAttribute="centerX" id="hEK-8B-oND"/>
+                            <constraint firstItem="TZc-Ya-YXx" firstAttribute="top" secondItem="bLY-GY-jdg" secondAttribute="bottom" constant="31" id="mLE-lK-XsL"/>
+                            <constraint firstItem="NXj-c9-OUd" firstAttribute="top" secondItem="8sl-hZ-iyM" secondAttribute="bottom" id="z8R-JA-f0s"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Connections" id="X4m-Yh-zUz"/>
+                    <connections>
+                        <outlet property="disconnectBtn" destination="SFK-B3-tqK" id="Qct-ng-hAA"/>
+                        <outlet property="tableView" destination="MrS-mn-71d" id="EmO-bj-FK4"/>
+                        <outlet property="textField" destination="NXj-c9-OUd" id="qv4-VP-lEa"/>
+                        <outlet property="visSwitch" destination="wNS-Ms-iEY" id="hpT-uZ-GLr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4pe-bY-cWG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="750" y="1242"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
@@ -97,15 +181,15 @@
                     <connections>
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
+                        <segue destination="k9G-uq-v6l" kind="relationship" relationship="viewControllers" id="2ZQ-oE-aOA"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="0.0" y="0.0"/>
+            <point key="canvasLocation" x="-130" y="360"/>
         </scene>
     </scenes>
     <resources>
-        <image name="first" width="30" height="30"/>
         <image name="second" width="30" height="30"/>
     </resources>
 </document>

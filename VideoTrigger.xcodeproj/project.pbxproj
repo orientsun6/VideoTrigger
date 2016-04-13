@@ -16,6 +16,8 @@
 		84C604421CB84A6F00109858 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C604401CB84A6F00109858 /* LaunchScreen.storyboard */; };
 		84C6044D1CB84A6F00109858 /* VideoTriggerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C6044C1CB84A6F00109858 /* VideoTriggerTests.m */; };
 		84C604581CB84A6F00109858 /* VideoTriggerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C604571CB84A6F00109858 /* VideoTriggerUITests.m */; };
+		84C604671CB84B0B00109858 /* ConnectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C604661CB84B0B00109858 /* ConnectionViewController.m */; };
+		84C6046A1CBED0D000109858 /* MCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C604691CBED0D000109858 /* MCManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		84C604531CB84A6F00109858 /* VideoTriggerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoTriggerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C604571CB84A6F00109858 /* VideoTriggerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoTriggerUITests.m; sourceTree = "<group>"; };
 		84C604591CB84A6F00109858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84C604651CB84B0B00109858 /* ConnectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionViewController.h; sourceTree = "<group>"; };
+		84C604661CB84B0B00109858 /* ConnectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionViewController.m; sourceTree = "<group>"; };
+		84C604681CBED0D000109858 /* MCManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCManager.h; sourceTree = "<group>"; };
+		84C604691CBED0D000109858 /* MCManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +116,11 @@
 				84C604361CB84A6F00109858 /* FirstViewController.m */,
 				84C604381CB84A6F00109858 /* SecondViewController.h */,
 				84C604391CB84A6F00109858 /* SecondViewController.m */,
+				84C604651CB84B0B00109858 /* ConnectionViewController.h */,
+				84C604661CB84B0B00109858 /* ConnectionViewController.m */,
 				84C6043B1CB84A6F00109858 /* Main.storyboard */,
+				84C604681CBED0D000109858 /* MCManager.h */,
+				84C604691CBED0D000109858 /* MCManager.m */,
 				84C6043E1CB84A6F00109858 /* Assets.xcassets */,
 				84C604401CB84A6F00109858 /* LaunchScreen.storyboard */,
 				84C604431CB84A6F00109858 /* Info.plist */,
@@ -276,7 +286,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				84C6043A1CB84A6F00109858 /* SecondViewController.m in Sources */,
+				84C6046A1CBED0D000109858 /* MCManager.m in Sources */,
 				84C604341CB84A6F00109858 /* AppDelegate.m in Sources */,
+				84C604671CB84B0B00109858 /* ConnectionViewController.m in Sources */,
 				84C604371CB84A6F00109858 /* FirstViewController.m in Sources */,
 				84C604311CB84A6F00109858 /* main.m in Sources */,
 			);
@@ -504,6 +516,7 @@
 				84C6045E1CB84A6F00109858 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84C6045F1CB84A6F00109858 /* Build configuration list for PBXNativeTarget "VideoTriggerTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +525,7 @@
 				84C604611CB84A6F00109858 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84C604621CB84A6F00109858 /* Build configuration list for PBXNativeTarget "VideoTriggerUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +534,7 @@
 				84C604641CB84A6F00109858 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
